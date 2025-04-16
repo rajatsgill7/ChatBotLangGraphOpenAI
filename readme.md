@@ -37,13 +37,14 @@ This project is a modular, intelligent chatbot built using **LangChain**, **Lang
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/intent-chatbot-langgraph.git
+git clone https://github.com/rajatsgill7/intent-chatbot-langgraph.git
 cd intent-chatbot-langgraph
 ```
 
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+pip install --user spacy
 python -m spacy download en_core_web_sm
 ```
 
